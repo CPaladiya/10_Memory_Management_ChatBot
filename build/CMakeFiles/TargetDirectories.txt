@@ -1,0 +1,3 @@
+/home/cpaladiya/My_prog_projects/10_CppND_Memory_Management_ChatBot/build/CMakeFiles/rebuild_cache.dir
+/home/cpaladiya/My_prog_projects/10_CppND_Memory_Management_ChatBot/build/CMakeFiles/membot.dir
+/home/cpaladiya/My_prog_projects/10_CppND_Memory_Management_ChatBot/build/CMakeFiles/edit_cache.dir
