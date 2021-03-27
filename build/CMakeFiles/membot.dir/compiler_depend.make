@@ -241,6 +241,18 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: ../src/chatbot.cpp \
   /usr/include/c++/9/bits/erase_if.h \
   /usr/include/c++/9/ctime \
   ../src/chatlogic.h \
+  /usr/include/c++/9/memory \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/9/ext/concurrence.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/allocated_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
   ../src/chatgui.h \
   /usr/include/wx-3.0/wx/wx.h \
   /usr/include/wx-3.0/wx/defs.h \
@@ -536,18 +548,6 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: ../src/chatbot.cpp \
   /usr/include/wx-3.0/wx/filectrl.h \
   /usr/include/wx-3.0/wx/mdi.h \
   /usr/include/wx-3.0/wx/gtk/mdi.h \
-  /usr/include/c++/9/memory \
-  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/9/ext/concurrence.h \
-  /usr/include/c++/9/bits/unique_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_base.h \
-  /usr/include/c++/9/bits/allocated_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_atomic.h \
-  /usr/include/c++/9/bits/atomic_base.h \
-  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/9/backward/auto_ptr.h \
-  /usr/include/c++/9/pstl/glue_memory_defs.h \
   ../src/graphnode.h \
   ../src/chatbot.h \
   ../src/graphedge.h
@@ -890,6 +890,26 @@ CMakeFiles/membot.dir/src/chatgui.cpp.o: ../src/chatgui.cpp \
   /usr/include/c++/9/bits/stl_vector.h \
   /usr/include/c++/9/bits/stl_bvector.h \
   /usr/include/c++/9/bits/vector.tcc \
+  /usr/include/c++/9/memory \
+  /usr/include/c++/9/bits/stl_tempbuf.h \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/9/ext/concurrence.h \
+  /usr/include/c++/9/bits/uses_allocator.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/tuple \
+  /usr/include/c++/9/array \
+  /usr/include/c++/9/bits/invoke.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/allocated_ptr.h \
+  /usr/include/c++/9/bits/refwrap.h \
+  /usr/include/c++/9/ext/aligned_buffer.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
+  /usr/include/c++/9/pstl/execution_defs.h \
   ../src/chatgui.h \
   /usr/include/wx-3.0/wx/wx.h \
   /usr/include/wx-3.0/wx/hash.h \
@@ -1058,27 +1078,7 @@ CMakeFiles/membot.dir/src/chatgui.cpp.o: ../src/chatgui.cpp \
   /usr/include/wx-3.0/wx/gtk/filectrl.h \
   /usr/include/wx-3.0/wx/filectrl.h \
   /usr/include/wx-3.0/wx/mdi.h \
-  /usr/include/wx-3.0/wx/gtk/mdi.h \
-  /usr/include/c++/9/memory \
-  /usr/include/c++/9/bits/stl_tempbuf.h \
-  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/9/ext/concurrence.h \
-  /usr/include/c++/9/bits/uses_allocator.h \
-  /usr/include/c++/9/bits/unique_ptr.h \
-  /usr/include/c++/9/tuple \
-  /usr/include/c++/9/array \
-  /usr/include/c++/9/bits/invoke.h \
-  /usr/include/c++/9/bits/shared_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_base.h \
-  /usr/include/c++/9/bits/allocated_ptr.h \
-  /usr/include/c++/9/bits/refwrap.h \
-  /usr/include/c++/9/ext/aligned_buffer.h \
-  /usr/include/c++/9/bits/shared_ptr_atomic.h \
-  /usr/include/c++/9/bits/atomic_base.h \
-  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/9/backward/auto_ptr.h \
-  /usr/include/c++/9/pstl/glue_memory_defs.h \
-  /usr/include/c++/9/pstl/execution_defs.h
+  /usr/include/wx-3.0/wx/gtk/mdi.h
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.o: ../src/chatlogic.cpp \
   /usr/include/stdc-predef.h \
@@ -1444,6 +1444,18 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.o: ../src/chatlogic.cpp \
   /usr/include/wx-3.0/wx/imagiff.h \
   /usr/include/wx-3.0/wx/gtk/bitmap.h \
   ../src/chatlogic.h \
+  /usr/include/c++/9/memory \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/9/ext/concurrence.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/allocated_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
   ../src/chatgui.h \
   /usr/include/wx-3.0/wx/wx.h \
   /usr/include/wx-3.0/wx/hash.h \
@@ -1616,19 +1628,7 @@ CMakeFiles/membot.dir/src/chatlogic.cpp.o: ../src/chatlogic.cpp \
   /usr/include/wx-3.0/wx/gtk/filectrl.h \
   /usr/include/wx-3.0/wx/filectrl.h \
   /usr/include/wx-3.0/wx/mdi.h \
-  /usr/include/wx-3.0/wx/gtk/mdi.h \
-  /usr/include/c++/9/memory \
-  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/9/ext/concurrence.h \
-  /usr/include/c++/9/bits/unique_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_base.h \
-  /usr/include/c++/9/bits/allocated_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_atomic.h \
-  /usr/include/c++/9/bits/atomic_base.h \
-  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/9/backward/auto_ptr.h \
-  /usr/include/c++/9/pstl/glue_memory_defs.h
+  /usr/include/wx-3.0/wx/gtk/mdi.h
 
 CMakeFiles/membot.dir/src/graphedge.cpp.o: ../src/graphedge.cpp \
   /usr/include/stdc-predef.h \
@@ -2319,22 +2319,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 ../src/graphedge.h:
 
-/usr/include/c++/9/pstl/glue_memory_defs.h:
-
-/usr/include/c++/9/backward/auto_ptr.h:
-
-/usr/include/c++/9/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/9/bits/allocated_ptr.h:
-
-/usr/include/c++/9/bits/shared_ptr_base.h:
-
-/usr/include/c++/9/bits/shared_ptr.h:
-
-/usr/include/c++/9/ext/concurrence.h:
-
-/usr/include/c++/9/memory:
-
 /usr/include/wx-3.0/wx/gtk/mdi.h:
 
 /usr/include/wx-3.0/wx/gtk/filectrl.h:
@@ -2378,10 +2362,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/wx-3.0/wx/listbox.h:
 
 /usr/include/wx-3.0/wx/checklst.h:
-
-/usr/include/c++/9/bits/stl_raw_storage_iter.h:
-
-/usr/include/wx-3.0/wx/bmpbuttn.h:
 
 /usr/include/wx-3.0/wx/ctrlsub.h:
 
@@ -2567,6 +2547,24 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
+/usr/include/wx-3.0/wx/pen.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/linux/stat.h:
+
 /usr/include/ctype.h:
 
 /usr/include/wx-3.0/wx/vector.h:
@@ -2596,6 +2594,12 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/linux/errno.h:
+
+/usr/include/wx-3.0/wx/tracker.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -2701,6 +2705,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
+/usr/include/c++/9/bits/shared_ptr_base.h:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/wx-3.0/wx/gtk/stattext.h:
@@ -2722,6 +2728,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/c++/9/bits/range_access.h:
 
 /usr/include/sched.h:
+
+/usr/include/c++/9/backward/auto_ptr.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
 
@@ -2746,6 +2754,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/c++/9/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/9/bits/allocated_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -2809,12 +2819,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/postypes.h:
 
-/usr/include/c++/9/bits/atomic_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/9/bits/exception_defines.h:
@@ -2825,19 +2829,17 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/wx-3.0/wx/filefn.h:
 
-/usr/include/c++/9/bits/atomic_lockfree_defines.h:
-
-/usr/include/linux/stddef.h:
-
 /usr/include/c++/9/bits/move.h:
+
+/usr/include/wx-3.0/wx/gtk/toolbar.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/c++/9/bits/stl_function.h:
 
 /usr/include/wx-3.0/wx/strvararg.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/c++/9/bits/unique_ptr.h:
-
-/usr/include/c++/9/bits/stringfwd.h:
 
 /usr/include/c++/9/iostream:
 
@@ -2967,6 +2969,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/hash_bytes.h:
 
+/usr/include/c++/9/bits/shared_ptr_atomic.h:
+
 /usr/include/wx-3.0/wx/event.h:
 
 /usr/include/c++/9/bits/nested_exception.h:
@@ -3071,21 +3075,15 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/ostream.tcc:
 
-/usr/include/wx-3.0/wx/tracker.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
 /usr/include/c++/9/istream:
 
 /usr/include/c++/9/bits/istream.tcc:
 
 /usr/include/wx-3.0/wx/icon.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
 /usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/wx-3.0/wx/meta/movable.h:
 
@@ -3103,8 +3101,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/linux/posix_types.h:
-
 /usr/include/wx-3.0/wx/imagpnm.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
@@ -3116,6 +3112,10 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/9/bits/specfun.h:
+
+/usr/include/c++/9/bits/stringfwd.h:
+
+/usr/include/c++/9/bits/unique_ptr.h:
 
 /usr/include/c++/9/tr1/gamma.tcc:
 
@@ -3175,12 +3175,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/random.tcc:
 
-/usr/include/wx-3.0/wx/gtk/toolbar.h:
-
-/usr/include/c++/9/bits/stl_function.h:
-
-/usr/include/linux/types.h:
-
 /usr/include/c++/9/tr1/beta_function.tcc:
 
 /usr/include/c++/9/numeric:
@@ -3198,8 +3192,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/wx-3.0/wx/beforestd.h:
 
 /usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/wx-3.0/wx/palette.h:
 
@@ -3225,6 +3217,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/uses_allocator.h:
 
+/usr/include/c++/9/ext/concurrence.h:
+
 /usr/include/c++/9/bits/std_function.h:
 
 /usr/include/c++/9/unordered_map:
@@ -3232,6 +3226,8 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/c++/9/bits/enable_special_members.h:
 
 /usr/include/c++/9/ext/aligned_buffer.h:
+
+/usr/include/c++/9/memory:
 
 /usr/include/c++/9/bits/hashtable.h:
 
@@ -3250,6 +3246,24 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/c++/9/ctime:
 
 ../src/chatlogic.h:
+
+/usr/include/wx-3.0/wx/bmpbuttn.h:
+
+/usr/include/c++/9/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/9/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/c++/9/bits/atomic_base.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/9/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/9/pstl/glue_memory_defs.h:
 
 ../src/chatgui.h:
 
@@ -3367,10 +3381,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/c++/9/bits/stream_iterator.h:
 
-/usr/include/wx-3.0/wx/pen.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
 /usr/include/wx-3.0/wx/checkbox.h:
 
 /usr/include/wx-3.0/wx/intl.h:
@@ -3412,13 +3422,3 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/wx-3.0/wx/gdiobj.h:
 
 /usr/include/wx-3.0/wx/utils.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/usr/include/linux/stat.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/asm-generic/bitsperlong.h:
