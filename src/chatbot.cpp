@@ -28,6 +28,7 @@ ChatBot::ChatBot(std::string filename)
 
     // load image into heap memory
     _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
+    std::cout << "constructor works" << std::endl;
 }
 
 ChatBot::~ChatBot()
@@ -40,6 +41,7 @@ ChatBot::~ChatBot()
         delete _image;
         _image = NULL;
     }
+    
 }
 
 //// STUDENT CODE
@@ -51,8 +53,10 @@ ChatBot::ChatBot(const ChatBot &source) // Copy constructor
 
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
-    _image = new wxBitmap();
-    *_image = *source._image;
+    if (source._image != NULL && source._image != nullptr){
+        _image = new wxBitmap(*source._image);
+    }
+    
 }
 
 ChatBot& ChatBot::operator=(const ChatBot &source) // Copy assignment operator
@@ -61,9 +65,9 @@ ChatBot& ChatBot::operator=(const ChatBot &source) // Copy assignment operator
     if (this == &source){
         return *this;
     }
-    delete _image;
-    _image = new wxBitmap();
-    *_image = *source._image;
+    if (source._image != NULL && source._image != nullptr){
+        _image = new wxBitmap(*source._image);
+    }
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
     return *this;
@@ -77,7 +81,9 @@ ChatBot::ChatBot(ChatBot &&source) // Move constructor
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
     _image = source._image;
-    source._image = nullptr;
+    source._image = NULL;
+    _chatLogic->SetChatbotHandle(this);
+    std::cout << "M constructor works"<< std::endl;
 }
 
 ChatBot& ChatBot::operator=(ChatBot &&source) // Move assignment operator
@@ -86,11 +92,15 @@ ChatBot& ChatBot::operator=(ChatBot &&source) // Move assignment operator
     if (this == &source){
         return *this;
     }
-    delete _image;
-    _image = source._image;
-    source._image = nullptr;
+    std::cout<< "MA constructor works"<< std::endl;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
+    _chatLogic->SetChatbotHandle(this);
+
+    _image = source._image;
+    source._image = NULL;
+
+    
     return *this;
     
 }
